@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Database & data runtime (dibuat otomatis / auto-seed)
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# Uploads pengguna (foto pengaduan, bukti bayar, identitas tamu)
+backend/uploads/**
+!backend/uploads/**/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# Logs & OS
+*.log
+.DS_Store

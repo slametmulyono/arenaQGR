@@ -1,0 +1,21 @@
+{
+  "name": "qgr-backend",
+  "version": "1.0.0",
+  "description": "QGR Smart System - REST API backend (API-First) untuk Sistem Informasi Perumahan The Quality Garden Residence",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js --force"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "qrcode": "^1.5.4"
+  }
+}
