@@ -8,6 +8,7 @@ Kamus istilah Teknik Komputer dan Jaringan untuk siswa SMK (Kurikulum Merdeka): 
 
 | Format | Lokasi |
 |---|---|
+| Word (DOCX) | [`glosarium-tkj/GLOSARIUM-TKJ.docx`](glosarium-tkj/GLOSARIUM-TKJ.docx) · [Fase E](glosarium-tkj/GLOSARIUM-TKJ-FASE-E.docx) · [Fase F](glosarium-tkj/GLOSARIUM-TKJ-FASE-F.docx) |
 | Interaktif (cari & filter) | [`glosarium-tkj/index.html`](glosarium-tkj/index.html) |
 | Satu file lengkap | [`glosarium-tkj/GLOSARIUM-LENGKAP.md`](glosarium-tkj/GLOSARIUM-LENGKAP.md) |
 | Per kategori | [`glosarium-tkj/fase-e/`](glosarium-tkj/fase-e) · [`glosarium-tkj/fase-f/`](glosarium-tkj/fase-f) |

@@ -37,7 +37,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 01 · Proses Bisnis, Profesi, dan Kewirausahaan di Bidang TJKT
 
-> **Fase:** E (Kelas X) · **Elemen CP:** 
+> **Fase:** E (Kelas X) · **Elemen CP:** Proses bisnis di bidang TJKT; Profesi dan kewirausahaan (job-profile dan technopreneurship) di bidang TJKT
 >
 > **Ringkasan:** Bagian ini menjelaskan bagaimana "dunia kerja" jaringan komputer dan telekomunikasi berjalan: siapa saja pelakunya (ISP, vendor, teknisi, pelanggan), bagaimana alur pekerjaannya (survei → rencana → pasang → uji → rawat), profesi apa saja yang bisa kamu tekuni, dan peluang usaha (technopreneurship) yang bisa kamu rintis sejak SMK.
 
@@ -134,7 +134,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 02 · Perkembangan Teknologi di Bidang TJKT
 
-> **Fase:** E (Kelas X) · **Elemen CP:** 
+> **Fase:** E (Kelas X) · **Elemen CP:** Perkembangan teknologi di bidang teknik jaringan komputer dan telekomunikasi (5G, microwave link, IPv6, serat optik terkini, IoT, data center, cloud computing, keamanan informasi, penetrasi internet)
 >
 > **Ringkasan:** Teknologi jaringan berubah sangat cepat. Bagian ini mengenalkan istilah-istilah teknologi terkini yang wajib diketahui agar kamu tidak "ketinggalan zaman": dari Revolusi Industri 4.0, IoT, cloud, 5G, sampai kecerdasan buatan dan otomasi jaringan.
 
@@ -211,7 +211,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 03 · K3LH dan Budaya Kerja Industri
 
-> **Fase:** E (Kelas X) · **Elemen CP:** 
+> **Fase:** E (Kelas X) · **Elemen CP:** Keselamatan dan Kesehatan Kerja Lingkungan Hidup (K3LH) dan budaya kerja industri
 >
 > **Ringkasan:** Teknisi jaringan bekerja dengan listrik, alat tajam, serat kaca, laser, ketinggian, dan perangkat mahal. Bagian ini berisi istilah keselamatan kerja, pencegahan bahaya, pengelolaan lingkungan, dan budaya kerja (5R, SOP, disiplin) yang wajib menjadi kebiasaan sejak di bengkel sekolah.
 
@@ -272,7 +272,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 04 · Perangkat Keras Komputer dan Perakitan
 
-> **Fase:** E (Kelas X) · **Elemen CP:** 
+> **Fase:** E (Kelas X) · **Elemen CP:** Dasar-dasar teknik jaringan komputer dan telekomunikasi (perakitan komputer dan pengenalan perangkat)
 >
 > **Ringkasan:** Sebelum menghubungkan komputer ke jaringan, kamu harus paham "isi perut" komputer: komponen, satuan (bit, byte, GHz), cara merakit, dan istilah yang muncul saat komputer dinyalakan. Bagian ini juga membahas perangkat keras server dan rak.
 
@@ -355,7 +355,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 05 · Sistem Operasi dan Perangkat Lunak Dasar
 
-> **Fase:** E (Kelas X) · **Elemen CP:** 
+> **Fase:** E (Kelas X) · **Elemen CP:** Dasar-dasar teknik jaringan komputer dan telekomunikasi (instalasi dan konfigurasi sistem operasi)
 >
 > **Ringkasan:** Setelah komputer dirakit, ia butuh sistem operasi. Bagian ini berisi istilah seputar Windows dan Linux: instalasi, partisi, file system, pengguna dan hak akses, perintah dasar terminal, serta perangkat lunak pendukung yang setiap hari dipakai teknisi jaringan.
 
@@ -432,7 +432,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 06 · Dasar-Dasar Jaringan Komputer
 
-> **Fase:** E (Kelas X) · **Elemen CP:** 
+> **Fase:** E (Kelas X) · **Elemen CP:** Dasar-dasar teknik jaringan komputer dan telekomunikasi; Media dan jaringan telekomunikasi (prinsip dasar IPv4/IPv6, TCP/IP, networking service)
 >
 > **Ringkasan:** Ini adalah "kamus inti" jaringan komputer: jenis jaringan, topologi, model OSI dan TCP/IP, protokol-protokol penting, alamat IP dan MAC, perangkat jaringan (hub, switch, router, access point), serta ukuran kinerja (bandwidth, latency, packet loss). Hampir semua materi Fase F berdiri di atas istilah-istilah ini.
 
@@ -557,7 +557,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 07 · Media Transmisi dan Jaringan Telekomunikasi
 
-> **Fase:** E (Kelas X) · **Elemen CP:** 
+> **Fase:** E (Kelas X) · **Elemen CP:** Media dan jaringan telekomunikasi (sistem seluler, microwave, VSAT IP, optik, WLAN); Dasar-dasar TJKT (pengkabelan)
 >
 > **Ringkasan:** Data harus lewat "jalan": kabel tembaga, serat optik, atau gelombang radio. Bagian ini menjelaskan jenis-jenis media, konektor, standar pengkabelan, dasar gelombang dan antena, serta sistem telekomunikasi (telepon, seluler, microwave, satelit) yang menjadi tulang punggung internet.
 
@@ -666,7 +666,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 08 · Alat Ukur dan Alat Kerja Jaringan
 
-> **Fase:** E (Kelas X) · **Elemen CP:** 
+> **Fase:** E (Kelas X) · **Elemen CP:** Penggunaan alat ukur jaringan (jenis alat ukur, penggunaan, dan pemeliharaannya untuk jaringan komputer dan sistem telekomunikasi)
 >
 > **Ringkasan:** Teknisi yang baik "mengukur, bukan menebak". Bagian ini mengenalkan alat kerja (tang crimping, punch down, cleaver, splicer) dan alat ukur (multimeter, LAN tester, OTDR, power meter, Wi-Fi analyzer) beserta cara pakai dan perawatannya.
 
@@ -734,7 +734,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 09 · Perencanaan dan Pengalamatan Jaringan
 
-> **Fase:** F (Kelas XI–XII) · **Elemen CP:** 
+> **Fase:** F (Kelas XI–XII) · **Elemen CP:** Perencanaan dan Pengalamatan Jaringan (merencanakan topologi dan arsitektur, mengumpulkan kebutuhan teknis pengguna dan data peralatan, pengalamatan jaringan, CIDR, VLSM, menghitung subnetting)
 >
 > **Ringkasan:** Jaringan yang baik lahir dari perencanaan yang baik. Bagian ini berisi istilah perancangan (kebutuhan pengguna, arsitektur hierarkis, dokumentasi, RAB) dan pengalamatan IP secara lengkap: kelas IP, subnet mask, CIDR, subnetting, VLSM, sampai IPv6.
 
@@ -818,7 +818,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 10 · Teknologi Jaringan Kabel, Nirkabel, dan VoIP
 
-> **Fase:** F (Kelas XI–XII) · **Elemen CP:** 
+> **Fase:** F (Kelas XI–XII) · **Elemen CP:** Teknologi Jaringan Kabel dan Nirkabel (instalasi, perawatan, dan perbaikan jaringan kabel/nirkabel; standar nirkabel; teknologi indoor/outdoor; instalasi dan pengujian perangkat nirkabel; konsep dan konfigurasi VoIP; jaringan fiber optic, jenis kabel, alat kerja, penyambungan, dan perbaikan FO)
 >
 > **Ringkasan:** Bagian ini memperdalam media jaringan dari sisi instalasi profesional: sistem pengkabelan terstruktur (patch panel, keystone, PoE), standar Wi-Fi dari 802.11b sampai Wi-Fi 7, konsep WLAN (SSID, roaming, kanal, MIMO), link nirkabel outdoor, dan layanan telepon VoIP (SIP, IP-PBX, softphone).
 
@@ -919,7 +919,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 11 · Pemasangan dan Konfigurasi Perangkat Jaringan
 
-> **Fase:** F (Kelas XI–XII) · **Elemen CP:** 
+> **Fase:** F (Kelas XI–XII) · **Elemen CP:** Pemasangan dan Konfigurasi Perangkat Jaringan (memasang dan mengganti perangkat; konsep, konfigurasi, dan pengujian VLAN; proses dan jenis routing; routing statis dan dinamis; NAT dan internet gateway; proxy server; manajemen bandwidth; load balancing)
 >
 > **Ringkasan:** Inilah "dapur" konfigurasi TKJ: cara mengakses router/switch (console, Winbox, SSH), konsep switching (MAC table, VLAN, trunk, STP), routing statis dan dinamis (RIP, OSPF, BGP), NAT dan firewall dasar, manajemen bandwidth (queue), load balancing, hotspot, PPPoE, dan istilah khas MikroTik serta Cisco yang paling sering dipakai di sekolah dan industri.
 
@@ -1045,7 +1045,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 12 · Keamanan Jaringan
 
-> **Fase:** F (Kelas XI–XII) · **Elemen CP:** 
+> **Fase:** F (Kelas XI–XII) · **Elemen CP:** Keamanan Jaringan (kebijakan penggunaan jaringan; ancaman dan serangan; menentukan sistem keamanan; firewall pada host dan server; server autentikasi; sistem pendeteksi dan penahan serangan (IDS/IPS); pengamanan server layanan; kriptografi untuk komunikasi data)
 >
 > **Ringkasan:** Jaringan yang terhubung ke internet pasti "diketuk" penyerang setiap hari. Bagian ini memuat istilah kebijakan keamanan, jenis ancaman dan serangan, malware, firewall (host, server, router), IDS/IPS, autentikasi (AAA, RADIUS, 802.1X, MFA), kriptografi (enkripsi, hash, sertifikat, TLS, VPN), pengamanan server, serta aspek hukum dan etika. Untuk istilah serangan, kolom "Fungsi" berisi tujuan penyerang dan cara pencegahannya.
 
@@ -1166,7 +1166,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 13 · Administrasi Sistem Jaringan (Server)
 
-> **Fase:** F (Kelas XI–XII) · **Elemen CP:** 
+> **Fase:** F (Kelas XI–XII) · **Elemen CP:** Administrasi Sistem Jaringan (instalasi sistem operasi jaringan; konsep, instalasi, konfigurasi, dan pengujian remote server, DHCP server, DNS server, FTP server, file server, web server, mail server, database server, control panel hosting, shared hosting, dedicated hosting, VPS, VPN server; sistem kontrol dan monitoring)
 >
 > **Ringkasan:** Server adalah "jantung layanan" jaringan. Bagian ini berisi istilah instalasi OS server, akses jarak jauh (SSH), tiap layanan server beserta perangkat lunak populernya (isc-dhcp, BIND9, Apache/Nginx, vsftpd, Samba, Postfix/Dovecot, MariaDB), hosting dan VPS, virtualisasi/container, serta pemantauan (Zabbix, Cacti, Grafana) dan perawatan server.
 
@@ -1275,7 +1275,7 @@ Lihat juga: [Indeks A–Z](INDEKS-A-Z.md) · [Versi interaktif (HTML)](index.htm
 
 ## 14 · Pemecahan Masalah (Troubleshooting) dan Pemeliharaan Jaringan
 
-> **Fase:** F (Kelas XI–XII) · **Elemen CP:** 
+> **Fase:** F (Kelas XI–XII) · **Elemen CP:** Lintas elemen — "menganalisis permasalahan dan memperbaiki" (perawatan dan perbaikan jaringan kabel/nirkabel, konfigurasi routing, NAT/internet gateway, proxy, server) serta pemeliharaan alat ukur dan jaringan (Fase E)
 >
 > **Ringkasan:** Kemampuan yang paling dihargai industri bukan sekadar memasang, tetapi memperbaiki dengan cepat dan tepat. Bagian ini berisi metode troubleshooting terstruktur, perintah diagnosis, pesan error yang sering muncul beserta artinya, gejala-gejala klasik dan penyebabnya, serta praktik pemeliharaan preventif.
 

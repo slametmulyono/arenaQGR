@@ -15,11 +15,14 @@ Pilih format yang paling nyaman:
 
 | Format | File | Cocok untuk |
 |---|---|---|
+| **Word (DOCX)** | [`GLOSARIUM-TKJ.docx`](GLOSARIUM-TKJ.docx) · per fase: [`GLOSARIUM-TKJ-FASE-E.docx`](GLOSARIUM-TKJ-FASE-E.docx), [`GLOSARIUM-TKJ-FASE-F.docx`](GLOSARIUM-TKJ-FASE-F.docx) | Dicetak/dibagikan sebagai buku saku; disunting guru; dilampirkan ke modul ajar |
 | **Interaktif (cari & filter)** | [`index.html`](index.html) | Belajar mandiri, mencari istilah cepat di HP/laptop, dicetak ke PDF |
 | **Satu file lengkap** | [`GLOSARIUM-LENGKAP.md`](GLOSARIUM-LENGKAP.md) | Dibaca berurutan, dicetak per bab |
 | **Per kategori** | folder [`fase-e/`](fase-e) dan [`fase-f/`](fase-f) | Menyertai satu topik pelajaran / modul ajar |
 | **Indeks A–Z** | [`INDEKS-A-Z.md`](INDEKS-A-Z.md) | Menemukan di kategori mana sebuah istilah dijelaskan |
 | **Spreadsheet** | [`glosarium-tkj.csv`](glosarium-tkj.csv) (pemisah `;`, UTF-8) | Dibuka di Excel/Google Sheets, dijadikan bank soal atau kartu hafalan |
+
+Versi DOCX berisi halaman sampul, petunjuk baca, daftar isi, tabel per kategori (kepala tabel berulang di tiap halaman, baris tidak terpotong halaman), dan indeks A–Z tiga kolom; ukuran A4. Nomor halaman pada daftar isi muncul setelah bidang diperbarui (Word: klik kanan daftar isi → *Update Field* → *Update entire table*; LibreOffice: *Tools → Update → Update All*). Word biasanya menawarkannya otomatis saat file dibuka.
 
 Setiap tabel memiliki empat kolom: **No** · **Istilah** · **Pengertian** · **Fungsi / Kegunaan**. Khusus istilah ancaman/serangan (kategori Keamanan Jaringan), kolom *Fungsi* berisi **tujuan penyerang dan cara pencegahannya**.
 
@@ -65,7 +68,7 @@ Setiap tabel memiliki empat kolom: **No** · **Istilah** · **Pengertian** · **
    python3 tools/build.py
    ```
 
-   Skrip memvalidasi tabel (jumlah kolom, sel kosong, urutan nomor, istilah ganda) lalu menghasilkan ulang `GLOSARIUM-LENGKAP.md`, `INDEKS-A-Z.md`, `glosarium-tkj.csv`, dan `index.html`. Tidak ada pustaka tambahan yang dibutuhkan (Python 3.8+).
+   Skrip memvalidasi tabel (jumlah kolom, sel kosong, urutan nomor, istilah ganda) lalu menghasilkan ulang `GLOSARIUM-LENGKAP.md`, `INDEKS-A-Z.md`, `glosarium-tkj.csv`, `index.html`, dan ketiga file `.docx` (penulis DOCX ada di `tools/docx_writer.py`, menyusun OOXML langsung). Tidak ada pustaka tambahan yang dibutuhkan (Python 3.8+).
 
 ## Catatan
 

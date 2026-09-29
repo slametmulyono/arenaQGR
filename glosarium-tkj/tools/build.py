@@ -8,6 +8,7 @@ lalu menghasilkan:
   - INDEKS-A-Z.md          : indeks istilah alfabetis -> kategori
   - glosarium-tkj.csv      : data tabular (UTF-8 BOM, bisa dibuka di Excel)
   - index.html             : glosarium interaktif (cari, filter fase/kategori)
+  - GLOSARIUM-TKJ.docx     : versi Word lengkap (+ GLOSARIUM-TKJ-FASE-E/F.docx)
 
 Pemakaian:  python3 tools/build.py        (dijalankan dari folder glosarium-tkj/)
 Tidak membutuhkan pustaka tambahan.
@@ -27,7 +28,7 @@ SOURCE_DIRS = [ROOT / "fase-e", ROOT / "fase-f"]
 
 ROW_RE = re.compile(r"^\|\s*(\d+)\s*\|(.*)\|\s*$")
 H1_RE = re.compile(r"^#\s+(.*)$")
-META_RE = re.compile(r"\*\*(Fase|Elemen CP|Ringkasan):\*\*\s*(.*)")
+META_RE = re.compile(r"\*\*(Fase|Elemen CP|Ringkasan):\*\*")
 
 
 @dataclass
@@ -74,11 +75,14 @@ def parse_file(path: Path, problems: list[str]) -> Category:
         m = H1_RE.match(line)
         if m and not title:
             title = m.group(1).strip()
-        m = META_RE.search(line)
-        if m:
-            key, val = m.group(1), m.group(2).strip()
+        # satu baris blockquote bisa memuat beberapa penanda, mis. "**Fase:** … · **Elemen CP:** …"
+        marks = list(META_RE.finditer(line))
+        for i, m in enumerate(marks):
+            key = m.group(1)
+            end = marks[i + 1].start() if i + 1 < len(marks) else len(line)
+            val = line[m.end(1) + 3:end].strip().rstrip("·").strip()
             if key == "Fase":
-                fase_label = val.split("·")[0].strip()
+                fase_label = val
             elif key == "Elemen CP":
                 elemen = val
             elif key == "Ringkasan":
@@ -357,7 +361,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     </div>
     <div class="meta">
       <span id="count"></span>
-      <span>Sumber Markdown: <a href="GLOSARIUM-LENGKAP.md">GLOSARIUM-LENGKAP.md</a> · <a href="glosarium-tkj.csv">CSV</a> · <a href="INDEKS-A-Z.md">Indeks A–Z</a></span>
+      <span>Sumber Markdown: <a href="GLOSARIUM-LENGKAP.md">GLOSARIUM-LENGKAP.md</a> · <a href="GLOSARIUM-TKJ.docx">Word (DOCX)</a> · <a href="glosarium-tkj.csv">CSV</a> · <a href="INDEKS-A-Z.md">Indeks A–Z</a></span>
     </div>
   </section>
   <div id="results"></div>
@@ -486,6 +490,25 @@ def write_html(cats: list[Category]) -> Path:
 
 
 # --------------------------------------------------------------------------- #
+# Output: DOCX (Word) — lihat docx_writer.py
+# --------------------------------------------------------------------------- #
+def write_docx_files(cats: list[Category]) -> list[Path]:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from docx_writer import write_docx  # noqa: E402
+
+    outs = [write_docx(ROOT / "GLOSARIUM-TKJ.docx", cats, title="Glosarium TKJ",
+                       subtitle="Fase E & Fase F — Kurikulum Merdeka (SMK TJKT / TKJ)",
+                       header_right="Fase E & Fase F · Kurikulum Merdeka")]
+    for fase, sub, hdr in (("E", "Fase E (Kelas X) — Dasar-Dasar TJKT", "Fase E · Kelas X · Dasar-Dasar TJKT"),
+                           ("F", "Fase F (Kelas XI–XII) — Konsentrasi Keahlian TKJ", "Fase F · Kelas XI–XII · TKJ")):
+        subset = [c for c in cats if c.fase == fase]
+        if subset:
+            outs.append(write_docx(ROOT / f"GLOSARIUM-TKJ-FASE-{fase}.docx", subset, title="Glosarium TKJ",
+                                   subtitle=sub, header_right=hdr))
+    return outs
+
+
+# --------------------------------------------------------------------------- #
 def main() -> int:
     cats, problems = load_all()
     errors = [p for p in problems if not p.startswith("PERINGATAN")]
@@ -498,6 +521,7 @@ def main() -> int:
             print("  ", e)
         return 1
     outputs = [write_combined_md(cats), write_index_md(cats), write_csv(cats), write_html(cats)]
+    outputs += write_docx_files(cats)
     total = sum(len(c.entries) for c in cats)
     print(f"OK: {total} istilah dari {len(cats)} kategori")
     for c in cats:
